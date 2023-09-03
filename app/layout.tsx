@@ -1,0 +1,43 @@
+import "./globals.css"
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import Link from "next/link"
+import classNames from "classnames"
+import { ArrowRightIcon } from "@iconicicons/react"
+const inter = Inter({ subsets: ["latin"] })
+
+export const metadata: Metadata = {
+  title: "Emmanuel Yankey",
+  description: "Frontend Engineer / Design Engineer",
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={classNames(inter.className, "bg-[#111] text-white")}>
+        <div className="max-w-[800px] h-screen mx-auto flex flex-col space-y-10 mt-8 px-4 ">
+          <div className="space-x-4">
+            <Link href="/">Work</Link>
+            <span>/</span>
+            <Link href="/info">Info</Link>
+          </div>
+
+          {children}
+          <div className="w-full flex justify-center">
+            <a
+              href=""
+              className="flex bg-[#00000060] w-fit px-3 py-3 rounded-[16px] space-x-4 text-sm  backdrop-blur text-white bottom-4  fixed mx-auto border-[#ffffff20] "
+            >
+              <span> Available for your next project! </span>
+              <ArrowRightIcon />
+            </a>
+          </div>
+        </div>
+      </body>
+    </html>
+  )
+}

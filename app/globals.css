@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .bg {
+    border-radius: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    background: linear-gradient(
+      116deg,
+      rgba(86, 71, 252, 0.2) -39.87%,
+      rgba(243, 43, 211, 0) 100%
+    );
+  }
+}
