@@ -2,14 +2,24 @@ import classNames from "classnames"
 import { LinkIcon } from "@iconicicons/react"
 const work = [
   {
-    name: "Todo app ",
-    description: "Built a todo app with TypeScript & Reactjs",
-    url: "https://github.com/hiyankey/todo-app",
+    name: "Landing page",
+    description: "Exploring design concepts.",
+    url: "/",
   },
 
   {
+    name: "Merch shop ",
+    description: "Ongoing",
+    url: "/",
+  },
+  {
+    name: "Todo app ",
+    description: "Built with typescript and reactjs.",
+    url: "https://github.com/hiyankey/todo-app",
+  },
+  {
     name: "Personal website ",
-    description: "Designed with Figma and built using Nextjs",
+    description: "Designed with figma, built with nextjs.",
     url: "https://github.com/hiyankey/portfolio",
   },
 ]
