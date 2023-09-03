@@ -10,7 +10,7 @@ const work = [
   {
     name: "Personal website ",
     description: "Designed with Figma",
-    url: "/",
+    url: "/https://github.com/hiyankey/portfolio",
   },
 ]
 export default function Home() {
