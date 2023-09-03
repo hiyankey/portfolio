@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Emmanuel Yankey",
-  description: "Frontend Engineer / Design Engineer",
+  description: "Designer / Frontend engineer",
 }
 
 export default function RootLayout({
@@ -21,9 +21,9 @@ export default function RootLayout({
       <body className={classNames(inter.className, "bg-[#111] text-white")}>
         <div className="max-w-[800px] h-screen mx-auto flex flex-col space-y-10 mt-8 px-4 ">
           <div className="space-x-4">
-            <Link href="/">Work</Link>
+            <Link href="https://read.cv/hiyankey">CV</Link>
             <span>/</span>
-            <Link href="/info">Info</Link>
+            <Link href="https://github.com/hiyankey">Github</Link>
           </div>
 
           {children}
