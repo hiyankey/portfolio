@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={classNames(inter.className, "bg-[#111] text-white")}>
-        <div className="max-w-[800px] h-screen mx-auto flex flex-col space-y-10 mt-8 px-4 ">
+        <div className="max-w-[800px] h-screen mx-auto flex flex-col space-y-10 mt-16 px-8 ">
           <div className="space-x-4">
             <Link href="https://read.cv/hiyankey">CV</Link>
             <span>/</span>
