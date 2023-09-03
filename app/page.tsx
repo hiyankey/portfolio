@@ -1,10 +1,10 @@
 import classNames from "classnames"
-import { LinkIcon } from "@iconicicons/react"
+import { ArrowUpRightIcon } from "@iconicicons/react"
 const work = [
   {
     name: "Landing page",
     description: "Exploring design concepts.",
-    url: "/",
+    url: "https://read.cv/hiyankey",
   },
 
   {
@@ -15,37 +15,38 @@ const work = [
   {
     name: "Todo app ",
     description: "Built with typescript and reactjs.",
-    url: "https://github.com/hiyankey/todo-app",
+    url: "https://todo-app-hiyankey.vercel.app/",
   },
   {
-    name: "Personal website ",
+    name: "Personal website",
     description: "Designed with figma, built with nextjs.",
-    url: "https://github.com/hiyankey/portfolio",
+    url: "https://portfolio-hiyankey.vercel.app/",
   },
 ]
 export default function Home() {
   return (
     <>
+   <div className="max-w-[600px]">
+      <p>
+        I&apos;m Emmanuel Yankey, a design / frontend engineer. I craft
+        beautiful interfaces and take brands further through visual
+        experience.
+      </p>
+    </div>
+    <h2 className="">Projects</h2>
       <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mx-auto pb-40">
         {work.map((w, index) => (
-          <div
-            className={classNames(
-              "w-[400px] h-[250px] rounded-2xl overflow-hidden shrink-0",
-              "bg"
-            )}
-            key={index}
-          >
-            <div className="flex flex-col justify-end h-full p-4">
-              <a className="flex text-sm" href={w.url}>
-                <LinkIcon width={16} /> <h3>{w.name}</h3>
+          <div key={index}>
+            <div className="flex flex-col justify-end h-full p-4 border-b border-[#444]">
+              <a className="flex text-sm hover:underline" href={w.url}>
+                <h3>{w.name}</h3>
+                <ArrowUpRightIcon width={16} />
               </a>
-              <p className="text-sm text-[#444]">{w.description}</p>
+              <p className="text-sm text-[#888]">{w.description}</p>
             </div>
           </div>
         ))}
       </div>
-   
-      
     </>
   )
 }
