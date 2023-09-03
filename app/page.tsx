@@ -9,7 +9,7 @@ const work = [
 
   {
     name: "Personal website ",
-    description: "Designed with Figma",
+    description: "Designed with Figma and built using Nextjs",
     url: "/https://github.com/hiyankey/portfolio",
   },
 ]
