@@ -2,9 +2,9 @@ import classNames from "classnames"
 import { ArrowUpRightIcon } from "@iconicicons/react"
 const projects = [
   {
-    name: "Landing page",
-    description: "Exploring design concepts.",
-    url: "https://read.cv/hiyankey",
+    name: "Dialogue",
+    description: "An HTML Dialogue",
+    url: "https://dialogue-hiyankey.vercel.app/",
   },
 
   {
