@@ -8,9 +8,9 @@ const work = [
   },
 
   {
-    name: "Merch shop ",
-    description: "Ongoing",
-    url: "/",
+    name: "Carousel",
+    description: "A modern carousel built with CSS and JavaScript.",
+    url: "https://carousel-hiyankey.vercel.app/",
   },
   {
     name: "Todo app ",
