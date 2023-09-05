@@ -1,6 +1,6 @@
 import classNames from "classnames"
 import { ArrowUpRightIcon } from "@iconicicons/react"
-const work = [
+const projects = [
   {
     name: "Landing page",
     description: "Exploring design concepts.",
@@ -35,14 +35,14 @@ export default function Home() {
     </div>
     <h2 className="">Projects</h2>
       <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 mx-auto pb-40">
-        {work.map((w, index) => (
+        {projects.map((project, index) => (
           <div key={index}>
             <div className="flex flex-col justify-end h-full p-4 border-b border-[#444]">
-              <a className="flex text-sm hover:underline" href={w.url}>
-                <h3>{w.name}</h3>
+              <a className="flex text-sm hover:underline" href={project.url}>
+                <h3>{project.name}</h3>
                 <ArrowUpRightIcon width={16} />
               </a>
-              <p className="text-sm text-[#888]">{w.description}</p>
+              <p className="text-sm text-[#888]">{project.description}</p>
             </div>
           </div>
         ))}
