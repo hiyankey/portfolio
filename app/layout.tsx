@@ -29,7 +29,7 @@ export default function RootLayout({
           {children}
           <div className="w-full flex justify-center">
             <a
-              href=""
+              href="mailto:hiyankey@gmail.com"
               className="flex bg-[#00000060] w-fit px-3 py-3 rounded-[16px] space-x-4 text-sm  backdrop-blur text-white bottom-4  fixed mx-auto border-[#ffffff20] "
             >
               <span> Available for your next project! </span>
