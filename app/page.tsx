@@ -4,23 +4,23 @@ const projects = [
   {
     name: "Dialogue",
     description: "An HTML Dialogue",
-    url: "https://dialogue-hiyankey.vercel.app/",
+    url: "https://dialogue-hiyankey.vercel.app",
   },
 
   {
     name: "Carousel",
     description: "A modern carousel built with CSS and JavaScript.",
-    url: "https://carousel-hiyankey.vercel.app/",
+    url: "https://carousel-hiyankey.vercel.app",
   },
   {
     name: "Todo app ",
     description: "Built with typescript and reactjs.",
-    url: "https://todo-app-hiyankey.vercel.app/",
+    url: "https://todo-hiyankey.vercel.app",
   },
   {
     name: "Personal website",
     description: "Designed with figma, built with nextjs.",
-    url: "https://portfolio-hiyankey.vercel.app/",
+    url: "https://portfolio-hiyankey.vercel.app",
   },
 ]
 export default function Home() {
