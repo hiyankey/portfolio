@@ -31,8 +31,8 @@ export default function RootLayout({
               href="mailto:hiyankey@gmail.com"
               className="flex bg-[#00000060] w-fit px-3 py-3 rounded-[16px] space-x-4 text-sm  backdrop-blur text-white bottom-4  fixed mx-auto border-[#ffffff20] "
             >
-              <span> Available for your next project! </span>
-             👋
+             <span👋span>  <span> Available for your next project! </span>
+            
             </a>
           </div>
         </div>
