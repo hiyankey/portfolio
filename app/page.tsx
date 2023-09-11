@@ -13,9 +13,9 @@ const projects = [
     url: "https://carousel-hiyankey.vercel.app",
   },
   {
-    name: "Todo app ",
-    description: "Built with typescript and reactjs.",
-    url: "https://todo-hiyankey.vercel.app",
+    name: "Task app ",
+    description: "Built with typescript and nextjs.",
+    url: "https://task-app-hiyankey.vercel.app",
   },
   {
     name: "Personal website",
