@@ -3,7 +3,6 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import Link from "next/link"
 import classNames from "classnames"
-import { ArrowRightIcon } from "@iconicicons/react"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
@@ -33,7 +32,7 @@ export default function RootLayout({
               className="flex bg-[#00000060] w-fit px-3 py-3 rounded-[16px] space-x-4 text-sm  backdrop-blur text-white bottom-4  fixed mx-auto border-[#ffffff20] "
             >
               <span> Available for your next project! </span>
-              <ArrowRightIcon />
+             👋
             </a>
           </div>
         </div>
