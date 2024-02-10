@@ -22,6 +22,11 @@ const projects = [
     description: "Designed with figma, built with nextjs.",
     url: "https://portfolio-hiyankey.vercel.app",
   },
+  {
+    name: "Linear Rebuild",
+    description: "Rebuilt Linear landing page",
+    url: "https://linear-lp.vercel.app",
+  },
 ]
 export default function Home() {
   return (
