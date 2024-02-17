@@ -25,7 +25,7 @@ const projects = [
   {
     name: "Linear Rebuild",
     description: "Rebuilt Linear landing page",
-    url: "https://linear-lp.vercel.app",
+    url: "https://linear-rebuild-hiyankey.vercel.app",
   },
 ]
 export default function Home() {
