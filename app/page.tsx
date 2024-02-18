@@ -6,12 +6,6 @@ const projects = [
     description: "An HTML Dialogue",
     url: "https://dialogue-hiyankey.vercel.app",
   },
-
-  {
-    name: "Carousel",
-    description: "A modern carousel built with CSS and JavaScript.",
-    url: "https://carousel-hiyankey.vercel.app",
-  },
   {
     name: "Task app ",
     description: "Built with typescript and nextjs.",
