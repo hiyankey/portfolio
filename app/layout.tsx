@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './styles/globals.css'
+import { Analytics } from '@vercel/analytics/react'
 
 const inter = localFont({
   src: './fonts/InterVariable.woff2',
@@ -21,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${inter.variable}  antialiased`}>{children}</body>
+      <body className={`${inter.variable}  antialiased`}>
+        {children} <Analytics />
+      </body>
     </html>
   )
 }
