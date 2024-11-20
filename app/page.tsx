@@ -21,7 +21,7 @@ export default function Home() {
             />
           </div>
           <div>
-            <h3 className='text-md mb-[.8rem]'>Manuel.y</h3>
+            <h3 className='text-md mb-[.8rem]'>Emmanuel Yankey</h3>
             <Tag variant={'secondary'} className='flex space-x-2 items-center'>
               <div className='relative flex justify-center items-center  '>
                 <span className='absolute inline-flex h-3 w-3  rounded-full bg-orange-400 opacity-75 animate-ping'></span>
