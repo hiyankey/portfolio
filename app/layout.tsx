@@ -10,7 +10,7 @@ const inter = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Manuel.y',
+  title: 'Emmanuel Yankey',
   description: 'Personal site',
   icons: [],
 }
