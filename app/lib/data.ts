@@ -8,7 +8,7 @@ interface Project {
 export const projects: Project[] = [
   {
     title: 'Acme',
-    desc: 'Building and end 2 end application with Nestjs, tRPC & Nextjs',
+    desc: 'Building an e2e application with Nestjs, tRPC & Nextjs',
     path: 'https://github.com/hiyankey/acme',
     thumbnail: '/Acme.png'
   },
