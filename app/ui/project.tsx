@@ -12,13 +12,14 @@ interface Props {
   title: string
   desc: string
   thumbnail: string
-  tags: TagProps[]
+  tags: TagProps[],
+  path?: string,
 }
 
-export default function Project({ title, desc, thumbnail, tags }: Props) {
+export default function Project({ title, desc, thumbnail, tags , path}: Props) {
   return (
     <Link
-      href={'/'}
+      href={`${path || ''}`}
       className=' flex items-center space-x-4 border-b border-dashed border-black/10 space-y-[1.6rem] pb-[1.6rem]'
     >
       <div>
