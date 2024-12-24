@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply font-sans w-screen min-h-screen bg-background;
+    @apply font-sans w-screen min-h-screen bg-background text-white/80;
     font-size: 1.6rem;
   }
 }
