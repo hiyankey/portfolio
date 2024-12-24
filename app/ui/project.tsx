@@ -20,13 +20,13 @@ export default function Project({ title, desc, thumbnail, tags , path}: Props) {
   return (
     <Link
       href={`${path || ''}`}
-      className=' flex items-center space-x-4 border-b border-dashed border-black/10 space-y-[1.6rem] pb-[1.6rem]'
+      className=' flex items-center space-x-4 border-b border-dashed border-white/10 space-y-[1.6rem] pb-[1.6rem]'
     >
       <div>
         {' '}
         <div className='space-y-[.6rem] mb-[1.2rem] flex flex-col'>
           <h3>{title}</h3>
-          <p className='text-black/40'>{desc}</p>
+          <p className='text-white/40'>{desc}</p>
         </div>
         <div className='[&_div]:mr-4 space-y-4 flex items-baseline  flex-wrap'>
           {tags.map((tag, index) => (
