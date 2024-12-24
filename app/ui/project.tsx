@@ -1,15 +1,11 @@
 'use client'
 
-import Image from 'next/image'
 import { Tag } from './tag'
 import { StatusIcon } from './icons/status'
 import Link from 'next/link'
-import { JSX } from 'react'
 
-interface TagProps {
-  name: string
-  icon: () => JSX.Element
-}
+
+
 
 interface Props {
   title: string
