@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'Kanban board',
     desc: 'A simple kanban board to streamline workflow',
-    thumbnail: '/kanban.jpg',
+    thumbnail: '/Kanban.jpg',
     path: 'https://kanban-bice-five.vercel.app/',
     tags: [
       {
