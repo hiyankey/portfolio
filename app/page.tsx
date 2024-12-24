@@ -5,6 +5,7 @@ import { Tag } from './ui/tag'
 import { projects } from './lib/data'
 import Project from './ui/project'
 import { StatusIcon } from './ui/icons/status'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -38,7 +39,7 @@ export default function Home() {
             <span className='text-black'>design engineer</span> helping
             start-ups & founders build user friendly products.
           </p>
-          <Button>Book a call</Button>
+          <Button><Link href={' https://wa.me/+233501315738'}>Let's chat</Link></Button>
         </div>
 
         <div>

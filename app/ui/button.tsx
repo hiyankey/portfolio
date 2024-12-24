@@ -1,4 +1,5 @@
 import { cva, VariantProps } from 'class-variance-authority'
+import { ButtonWithTooltip } from './tooltip'
 
 const buttonClasses = cva(
   'rounded-[12px] text-white inline-block w-fit h-fit text-md',
@@ -24,8 +25,8 @@ interface Props extends VariantProps<typeof buttonClasses> {
 
 export function Button({ children, variant, size }: Props) {
   return (
-    <button className={`${buttonClasses({ variant, size })}`}>
+    <ButtonWithTooltip className={`${buttonClasses({ variant, size })}`}>
       {children}
-    </button>
+    </ButtonWithTooltip>
   )
 }
