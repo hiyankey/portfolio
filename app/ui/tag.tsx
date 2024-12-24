@@ -1,4 +1,5 @@
-import { cva, VariantProps } from 'class-variance-authority'
+import { cva, type VariantProps } from 'class-variance-authority'
+import React from 'react'
 
 const tagClasses = cva('text-black/[.6] text-sm inline-block w-fit h-fit', {
   variants: {
@@ -20,14 +21,15 @@ const tagClasses = cva('text-black/[.6] text-sm inline-block w-fit h-fit', {
     rounded: 'full',
   },
 })
+
 interface Props extends VariantProps<typeof tagClasses> {
   children: React.ReactNode
   className?: string
 }
 
-export function Tag({ children, variant, size, rounded, className }: Props) {
+export function Tag({ children, variant, size, rounded, className = '' }: Props) {
   return (
-    <div className={`${tagClasses({ variant, size, rounded })} ${className}`}>
+    <div className={tagClasses({ variant, size, rounded, className })}>
       {children}
     </div>
   )

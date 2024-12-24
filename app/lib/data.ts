@@ -1,67 +1,16 @@
-import { ClerkIcon } from '../ui/icons/clerk'
-import { LemonSqueezyIcon } from '../ui/icons/lemon-squeezy'
-import { NextjsIcon } from '../ui/icons/nextjs'
-import { PrismaIcon } from '../ui/icons/prisma'
-import { RadixUIIcon } from '../ui/icons/radix-ui'
-import { StichesIcon } from '../ui/icons/stitches'
-import { SupabaseIcon } from '../ui/icons/supabase'
-import { TailwindIcon } from '../ui/icons/tailwind'
+
 
 export const projects = [
   {
-    title: 'acme mobile ui',
-    desc: 'i designed and built mobile app ui from 0 - 1',
-    thumbnail: '/thumb-1.jpg',
-    tags: [
-      {
-        name: 'Clerk',
-        icon: ClerkIcon,
-      },
-      {
-        name: 'Tailwind',
-        icon: TailwindIcon,
-      },
-      {
-        name: 'Prisma',
-        icon: PrismaIcon,
-      },
-      {
-        name: 'Lemon squeezy',
-        icon: LemonSqueezyIcon,
-      },
-      {
-        name: 'Next.js',
-        icon: NextjsIcon,
-      },
-    ],
+    title: 'Acme',
+    desc: 'Building and end 2 end application with Nestjs, tRPC & Nextjs',
+   path: 'https://github.com/hiyankey/acme'
   },
   {
     title: 'Kanban board',
     desc: 'A simple kanban board to streamline workflow',
-    thumbnail: '/Kanban.jpg',
-    path: 'https://kanban-bice-five.vercel.app/',
-    tags: [
-      {
-        name: 'Supabase',
-        icon: SupabaseIcon,
-      },
-      {
-        name: 'Radix UI',
-        icon: RadixUIIcon,
-      },
-
-      {
-        name: 'Stiches',
-        icon: StichesIcon,
-      },
-      {
-        name: 'Lemon squeezy',
-        icon: LemonSqueezyIcon,
-      },
-      {
-        name: 'Next.js',
-        icon: NextjsIcon,
-      },
-    ],
+   path: 'https://kanban-bice-five.vercel.app/'
+      
   },
+  
 ]

@@ -5,13 +5,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: '#111',
+        background: '#f0f0f0',
       },
       boxShadow: {
         primary:
-          '0 85px 24px hsla(0, 0, 100, 0), 0 54px 22px hsla(0, 0, 100, 0.01), 0 30px 18px hsla(0, 0, 100, 0.05), 0 14px 14px hsla(0, 0, 100, 0.09), 0 3px 7px hsla(0, 0, 100, 0.1)',
+          '0 85px 24px hsla(0, 0, 0, 0), 0 54px 22px hsla(0, 0, 0, 0.01), 0 30px 18px hsla(0, 0, 0, 0.05), 0 14px 14px hsla(0, 0, 0, 0.09), 0 3px 7px hsla(0, 0, 0, 0.1)',
         secondary:
-          '0 0 0 0.5px hsla(0, 0, 100, .05), 0 1px 2px hsla(0, 0, 100, 0.1)',
+          '0 0 0 0.5px hsla(0, 0, 0, .05), 0 1px 2px hsla(0, 0, 0, 0.1)',
       },
     },
     fontFamily: {
@@ -33,7 +33,7 @@ const config: Config = {
     },
     backgroundImage: {
       primary:
-        'linear-gradient(hsla(0, 0%, 100%, 0.7) 0%, hsla(0, 0%, 100%, 1) 70%)',
+        'linear-gradient(hsla(0, 0%, 0%, 0.7) 0%, hsla(0, 0%, 0%, 1) 70%)',
     },
   },
   plugins: [],
