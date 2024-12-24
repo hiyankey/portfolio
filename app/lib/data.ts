@@ -36,9 +36,9 @@ export const projects = [
     ],
   },
   {
-    title: 'acme website ui',
-    desc: 'i designed and built web app ui from 0 - 1',
-    thumbnail: '/thumb-2.jpg',
+    title: 'Kanban board',
+    desc: 'A simple kanban board to streamline workflow',
+    thumbnail: '/kanban.jpg',
     tags: [
       {
         name: 'Supabase',
