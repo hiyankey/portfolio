@@ -6,7 +6,7 @@ const buttonClasses = cva(
     variants: {
       variant: {
         primary: 'bg-primary shadow-primary shadow-black/[.05]',
-        secondary: '',
+        secondary: 'bg-white/5',
       },
       size: {
         default: 'px-[8px] py-[8px]',
