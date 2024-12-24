@@ -39,7 +39,7 @@ export default function Home() {
             <span className='text-black'>design engineer</span> helping
             start-ups & founders build user friendly products.
           </p>
-          <Button><Link href={' https://wa.me/+233501315738'}>Let's chat</Link></Button>
+          <Button><Link href={' https://wa.me/+233501315738'}>Let&apos;s chat</Link></Button>
         </div>
 
         <div>
