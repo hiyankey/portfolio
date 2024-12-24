@@ -49,6 +49,7 @@ export default function Home() {
               desc={project.desc}
               thumbnail={project.thumbnail}
               tags={project.tags}
+              path={project.path}
             />
           ))}
         </div>
