@@ -58,11 +58,11 @@ export default function Project({ title, desc, thumbnail, tags }: Props) {
           className='flex space-x-2 items-center  z-20 absolute bottom-[2rem] left-[1.3rem]'
         >
           <div className='relative flex justify-center items-center '>
-            <span className='absolute inline-flex h-3 w-3  rounded-full bg-orange-400 opacity-75 animate-ping'></span>
+            <span className='absolute inline-flex h-3 w-3  rounded-full bg-gray-400 opacity-75 animate-ping'></span>
 
             <StatusIcon classNames='w-6 h-6 relative inline-flex' />
           </div>
-          <span>Live</span>
+          <span>In progress</span>
         </Tag>
         <div className='left-0 absolute bottom-0 bg-background/[.002] backdrop-blur-[.32rem] w-full h-[3.2rem]' />
       </div>
