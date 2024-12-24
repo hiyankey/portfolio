@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: '#f0f0f0',
+        background: '#111',
       },
       boxShadow: {
         primary:
