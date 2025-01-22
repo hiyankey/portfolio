@@ -9,7 +9,7 @@ export const projects: Project[] = [
   {
     title: 'Acme',
     desc: 'Building an e2e application with Nestjs, tRPC & Nextjs',
-    path: 'https://github.com/hiyankey/acme',
+    path: 'https://acme-v0.vercel.app',
     thumbnail: '/Acme.png'
   },
   {
