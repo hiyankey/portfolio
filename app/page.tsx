@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 import { Tag } from './ui/tag'
 import { projects } from './lib/data'
 import Project from './ui/project'
-import { StatusIcon } from './ui/status'
+import { Status } from './ui/status'
 import Link from 'next/link'
 
 export default function Home() {
