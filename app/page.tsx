@@ -4,7 +4,7 @@ import { Button } from './ui/button'
 import { Tag } from './ui/tag'
 import { projects } from './lib/data'
 import Project from './ui/project'
-import { StatusIcon } from './ui/icons/status'
+import { StatusIcon } from './ui/status'
 import Link from 'next/link'
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
               <div className='relative flex justify-center items-center  '>
                 <span className='absolute inline-flex h-3 w-3  rounded-full bg-orange-400 opacity-75 animate-ping'></span>
 
-                <StatusIcon classNames='w-6 h-6 relative inline-flex' />
+                <Status/>
               </div>
               <span>i&apos;m available</span>
             </Tag>
