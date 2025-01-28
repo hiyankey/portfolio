@@ -1,7 +1,7 @@
 'use client'
 
 import { Tag } from './tag'
-import { StatusIcon } from './icons/status'
+import { StatusIcon } from './status'
 import Link from 'next/link'
 
 
@@ -25,7 +25,7 @@ export default function Project({ title, desc, path }: Props) {
       >
         <div className="relative flex justify-center items-center">
           <span className="absolute inline-flex h-3 w-3 rounded-full bg-orange-400 opacity-75 animate-ping" />
-          <StatusIcon classNames="w-6 h-6 relative inline-flex" />
+          <Status />
         </div>
         <span>In progress</span>
       </Tag></h3>
