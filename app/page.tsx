@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
         <div className='mb-[9.6rem]'>
-          <p className='text-xl text-black/40 mb-[2.4rem] max-w-[48rem]'>
+          <p className='text-xl text-[#999] mb-[2.4rem] max-w-[48rem]'>
             I&apos;m a self-taught{' '}
             <span className='text-black'>design engineer</span> helping
             start-ups & founders build user friendly products.
