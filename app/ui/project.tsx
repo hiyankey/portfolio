@@ -1,7 +1,7 @@
 'use client'
 
 import { Tag } from './tag'
-import { StatusIcon } from './status'
+import { Status } from './status'
 import Link from 'next/link'
 
 
